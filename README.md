@@ -1,5 +1,6 @@
 # GHIEstimator
 This code estimates the global horizontal irradiance (GHI) from the power measurements of one or more photovoltaic (PV) systems located in the same neighborhood. The method is completely unsupervised and is based on a physical model of a PV plant. It can estimate the nominal power and orientation of multiple PV fields, using only the aggregated power signal from their PV power plant. Moreover, if more than one PV power plant is available, the different signals are reconciled using outliers detection and assessing shading patterns for each PV plant.
+A detailed description of the algorithm is presented in L. Nespoli, V. Medici "An unsupervised method for estimating the global horizontal irradiance from photovoltaic power measurements", *Solar Energy Volume 158, December 2017, Pages 701–710*
 
 ## Installation
 ### pv_lib-toolbox
